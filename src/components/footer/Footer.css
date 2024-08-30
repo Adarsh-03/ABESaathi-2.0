@@ -1,0 +1,123 @@
+/* Footer.css */
+
+.footer {
+      background-color: #000000;
+      color: #fff;
+      padding: 30px 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+}
+
+.footer-main {
+      display: flex;
+      /* justify-content: space-between; */
+      /* align-items: center; */
+      padding-left: 30px;
+      margin-bottom: 20px;
+      margin-left: 30px;
+      margin-right: 30px;
+      padding-right: 30px;
+}
+
+.footer-left {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      /* margin-right: 30px; */
+      width: 27rem;
+}
+
+.footer-logo {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+}
+
+.logo {
+      height: 100px;
+      margin-right: 10px;
+}
+
+.footer-title {
+      color: #b7ff00;
+      font-size: 24px;
+      /* font-weight: bold; */
+      margin: 0;
+}
+
+.footer-description {
+      color: #ccc;
+      margin-top: 10px;
+}
+
+.footer-links {
+      flex: 1;
+      text-align: center;
+}
+
+.footer-links h3 {
+      color: #b7ff00;
+      margin-bottom: 15px;
+      font-size: 18px;
+}
+
+.footer-links ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+}
+
+.footer-links ul li {
+      margin-bottom: 10px;
+}
+
+.footer-links ul li a {
+      color: #ccc;
+      text-decoration: none;
+}
+
+.footer-links ul li a:hover {
+      color: #b7ff00;
+}
+
+.footer-right {
+      display: flex;
+      flex-direction: column;
+      margin-left: 40px;
+      margin-right: 40px;
+}
+
+.footer-names {
+      margin-bottom: 20px;
+}
+
+.footer-names h3 {
+      color: #b7ff00;
+      margin-bottom: 10px;
+      font-size: 18px;
+}
+
+.social-icons {
+      display: flex;
+      justify-content: space-between;
+}
+
+.social-icon {
+      width: 40px;
+      height: 40px;
+      border-radius: 5px;
+}
+
+span {
+      color: #b7ff00;
+}
+
+.footer-bottom {
+      border-top: 1px solid #333;
+      padding-top: 20px;
+      text-align: center;
+      font-weight: bold;
+      font-size: 14px;
+      color: #ccc;
+}

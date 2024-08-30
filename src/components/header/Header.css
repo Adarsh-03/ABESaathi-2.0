@@ -1,0 +1,79 @@
+/* Navbar container */
+.navbar-header {
+      background-color: #000;
+      /* Black background */
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+}
+
+/* Container within the navbar */
+.container {
+      display: flex;
+      align-items: center;
+      width: 100%;
+}
+
+/* Logo styling */
+.logo-image {
+      display: inline-block;
+      height: 60px;
+      height: 60px;
+      /* Adjust the height to your preference */
+      max-width: 100%;
+      border: #000;
+}
+
+/* Navbar links */
+.navbar-nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-grow: 1;
+}
+
+.nav-items {
+      display: flex;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+}
+
+.nav-link {
+      color: #b7ff00;
+      /* Lime green color */
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 16px;
+}
+
+.nav-link:hover {
+      /* text-decoration: underline; */
+      color: #eff1e9;
+      /* Underline on hover */
+}
+
+/* Login/SignUp button */
+.login-signup {
+      margin-left: 20px;
+      /* Adjust spacing if necessary */
+}
+
+.btn-login-signup {
+      background-color: #b7ff00;
+      /* Lime green background */
+      color: #000;
+      /* Black text */
+      padding: 5px 15px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: bold;
+}
+
+.btn-login-signup:hover {
+      background-color: #86c607;
+      /* color: white; */
+      /* Slightly darker green on hover */
+}
